@@ -9,5 +9,3 @@ RUN cp credentials.toml ~/.streamlit/credentials.toml
 WORKDIR /app
 ENTRYPOINT ["streamlit", "run"]
 CMD ["main.py"]
-
-CMD streamlit run main.py
